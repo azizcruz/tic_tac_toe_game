@@ -1,0 +1,37 @@
+/*General Style*/
+
+body {
+    background-color: #EAEAEA;
+}
+
+.game-table {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+tr td {
+    border: 1.5px solid #FFF;
+    font-size: 30px;
+    text-align: center;
+    background-color: #777;
+    border-radius: 0;
+    padding: 25px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.taken {
+    border: 2px solid #FFF;
+}
+
+.chosen {
+    background-color: #444;
+}
+
+#reset {
+    width: 100%;
+    display: none;
+}
+
+/*General Style*/

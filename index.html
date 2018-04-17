@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe | Game</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Choose turn section. -->
+        <h3 class="blue-grey-text center" id="winner">Who wins ?</h3>
+        <div class="row">
+            <div class="">
+                <div class="col s1 offset-s5">
+                    <a class="btn green white-text" id="turnX">
+                    X
+                </a>
+                </div>
+                <div class="col s1">
+                    <a class="btn red white-text" id="turnO">
+                    O
+                </a>
+                </div>
+            </div>
+        </div>
+        <!-- Choose turn section. -->
+
+        <!-- Table of game section. -->
+        <div class="game-table">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="cell" id="0">#</td>
+                        <td class="cell" id="1">#</td>
+                        <td class="cell" id="2">#</td>
+                    </tr>
+                    <tr>
+                        <td class="cell" id="3">#</td>
+                        <td class="cell" id="4">#</td>
+                        <td class="cell" id="5">#</td>
+                    </tr>
+                    <tr>
+                        <td class="cell" id="6">#</td>
+                        <td class="cell" id="7">#</td>
+                        <td class="cell" id="8">#</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="btn blue white-text" id="reset">
+                    Reset
+            </a>
+        </div>
+
+        <!-- Table of game section. -->
+
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
